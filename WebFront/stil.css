@@ -1,0 +1,221 @@
+body{
+    background-image: url(pozadina.jpg);
+    background-size: 100%;
+}
+
+/*.divzaNaslov{
+    display:flex;
+   
+}*/
+
+.kontPoslasticara{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    
+    
+   
+   
+    
+   
+    
+}
+
+
+.naslov{
+    text-align: center;
+    color: rgb(236, 159, 220);
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
+    font-style:italic;
+    font-size: 40px;
+    flex:1 0;
+    align-self: center;
+    position: static;
+    margin:5px;
+}
+
+
+.divZaElemente{
+    display:flex;
+    flex-direction: row;
+    flex: 1 0;
+    align-self: center;
+    margin:5px;
+    justify-content: space-around;
+    flex-basis: 200px;
+    /*max-width: 1500px;*/
+    /* min-width: 400px; */
+    min-height: 800px;
+    min-width: 200px;
+    
+    
+    /*flex-shrink: 0;*/
+    
+   
+   
+    
+}
+
+.dugmeUcitaj{
+    font-family: italic;
+    font-size: 15px;
+    text-align: center;
+    color:darkviolet;
+    display: inline-block;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:rgb(243, 193, 239) ;
+    border:rgb(243, 193, 239);
+    transition-duration: 0.4s;
+    padding: 12px 28px;
+    width:15%;
+    position: relative;
+}
+
+.dugmeUcitaj:hover{
+    background-color:rgb(243, 193, 239) ;
+    color:rgb(168, 117, 164) ;
+
+}
+
+.klasaForma{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    align-self: flex-start;
+ 
+}
+
+.kontForma{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    margin: 10px;
+    border: 1px none black;
+
+
+}
+
+.naslov1{
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(236, 159, 220);
+}
+
+.brojStola, .ime, .prezime, .brojStola1, .brojLjudi{
+    font-style: italic;
+}
+
+
+
+.labele{
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(204, 156, 200);
+    border: 1px  rgb(204, 156, 200);
+}
+
+.stoKontejner{
+   
+   
+
+    /*display: flex;*/
+
+    border: 2px none  rgb(197, 154, 196); ; 
+    flex-basis: 50px;
+    margin:20px;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    font-size: 18px;
+    font-style:italic;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-radius: 12px;
+    right:150px;
+    resize: none;
+    
+    
+     
+    
+    
+   
+    
+   
+   
+    
+
+    /*border: 2px none black; 
+    flex-basis: 80px;
+    height: 150px;   
+    margin: 4px;
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border-radius: 12px;*/
+}
+
+.crtaniStolovi{
+    /*display: flex;
+    height:20px;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;*/
+    
+    display: flex;
+    /*flex-direction: column;*/
+    height:10px;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    max-height: 200;
+    
+   
+   
+    
+    
+
+
+    
+   
+    
+   
+   
+    
+   
+   
+    /*flex-grow: 1;*/
+    
+    
+   
+
+    
+}
+
+.red{
+    display: flex;
+    flex-direction: row;
+}
+
+.dugmici{
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    color:darkviolet;
+    display: inline-block;
+    border-radius: 12px;
+    background-color:rgb(243, 193, 239) ;
+    border:rgb(243, 193, 239);
+    transition-duration: 0.4s;
+    margin:5px;
+}
+
+.dugmici:hover{
+    background-color:rgb(243, 193, 239) ;
+    color:rgb(168, 117, 164) ;
+
+}
